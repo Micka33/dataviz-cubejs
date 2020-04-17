@@ -13,7 +13,7 @@ npm install
 CUBEJS_DB_BQ_PROJECT_ID=<YOUR_DB_BQ_PROJECT_ID>
 CUBEJS_DB_BQ_KEY_FILE=<YOUR_DB_BQ_KEY_FILE>
 CUBEJS_DB_TYPE=bigquery
-CUBEJS_API_SECRET=SECRET
+CUBEJS_API_SECRET=<SECRET>
 ```
 
 1. Get your Google Cloud Project id and fill in `CUBEJS_DB_BQ_PROJECT_ID`. Or [Create a Google Cloud Project](https://console.cloud.google.com/projectcreate)
