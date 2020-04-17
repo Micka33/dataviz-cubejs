@@ -7,7 +7,7 @@ touch .env
 npm install
 ```
 
-# Fill in .env file such as
+# Fill in .env file
 
 ```
 CUBEJS_DB_BQ_PROJECT_ID=<YOUR_DB_BQ_PROJECT_ID>
