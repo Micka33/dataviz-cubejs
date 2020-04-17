@@ -1,0 +1,12 @@
+{
+  "name": "dataviz-cubejs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "@cubejs-backend/bigquery-driver": "^0.19.9",
+    "@cubejs-backend/server": "^0.19.9"
+  }
+}
