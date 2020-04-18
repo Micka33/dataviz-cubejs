@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { HashRouter as Router, Route } from "react-router-dom";
+import CustomPage from "./pages/CustomPage";
 import ExplorePage from "./pages/ExplorePage";
 import DashboardPage from "./pages/DashboardPage";
 ReactDOM.render(
@@ -12,6 +13,7 @@ ReactDOM.render(
       <App>
         <Route key="index" exact path="/" component={DashboardPage} />
         <Route key="explore" path="/explore" component={ExplorePage} />
+        <Route key="custom" path="/custom" component={CustomPage} />
       </App>
     </Router>
   </React.StrictMode>,

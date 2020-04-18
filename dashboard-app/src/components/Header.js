@@ -41,6 +41,9 @@ const Header = ({ location }) => (
       <Menu.Item key="/">
         <Link to="/">Dashboard</Link>
       </Menu.Item>
+      <Menu.Item key="/custom">
+        <Link to="/custom">Dashboard Custom</Link>
+      </Menu.Item>
     </Menu>
   </Layout.Header>
 );
