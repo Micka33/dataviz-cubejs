@@ -23,10 +23,22 @@ CUBEJS_API_SECRET=<SECRET>
     - Create key (JSON) and store it (eg: ~/.gcloud/keyname.json)
     - Set the path in your .env file
 
-# Run
+# Run Backend
 
 ```sh
 npm run dev
 ```
 
 Visit [http://localhost:4000/#/build](http://localhost:4000/#/build)
+
+# Run Client
+
+Either through the backend. 
+Or
+
+```sh
+cd dashboard-app
+npm start
+```
+
+Visit [http://localhost:3000/](http://localhost:3000/)
